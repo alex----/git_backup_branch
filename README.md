@@ -21,7 +21,11 @@ Alter the aggressiveness of backups
 Put your backups on a remote branch
 Let you configure the names of your branch backups
 
-Installation
+Issues
 ------------
-Not yet on package control - TODO
+If you are adding new files you can sometimes get merge failures - also it can take too long to run - causing sublime warnings.
+
+Finally the switch between branches causes the editor to reload the file which can lose things like pep8 notes etc.
+
+I have stopped using this
 
